@@ -1,7 +1,6 @@
 import axios from 'axios';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
-// import Sidebar from '../../../Sidebar/Sidebar';
 import Info from '../../Main/Info/Info';
 import { BsSuitHeart } from 'react-icons/bs';
 import MyButton from '../../../../UI/Button/MyButton';
@@ -20,10 +19,19 @@ const Novelties = () => {
         }
         getNaveItems()
     }, [])
+    const postBasket = async (card) => {
+        const resp = await axios.post('http://localhost:3001/basket', card)
+        const data = await resp.data
+        console.log(data)
+    }
+    const postFavorites = async (card) => {
+        const resp = await axios.post('http://localhost:3001/favorites', card)
+        const data = await resp.data
+        console.log(data)
+    }
 
     return (
         <>
-            {/* <Sidebar/> */}
             <div className='cards'>
                 <div className="container">
                     <div className='cards_content'>

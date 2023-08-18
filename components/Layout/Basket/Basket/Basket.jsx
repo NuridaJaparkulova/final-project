@@ -12,6 +12,7 @@ const Basket = () => {
     const route = useRouter()
 
     const [productsBasket, setProductsBasket] = useState([])
+
     useEffect(() => {
        const basketRoute = async () => {
             if(productsBasket.length == 0) {
@@ -31,15 +32,7 @@ const Basket = () => {
         getProductsBasket()
     }, [])
 
-    // const deleteProduct = async (id) => {
-    //     try {
-    //         const resp = await axios.delete(`http://localhost:3001/basket/${id}`)
-    //         alert('удалено из корзины')
-    //     } catch (error) {
-    //         console.error('Ошибка при удалении записи:', error);
-    //     }
-    // }
-    // deleteProduct()
+   
     return (
         <>
             <div className='basket'>
@@ -47,8 +40,7 @@ const Basket = () => {
                     <div className='basket_elements' >
                         <Link href={'/basket'}>Корзина</Link>
                         <a href="#footer">Контакты</a>
-                        <Link href={'/delivery'}>Доставка</Link>
-                        <Link href={'/payment'}>Оплата</Link>
+                        <Link href={'/delivery'}>Оформить заказ</Link>
                         <Link href={'/order'}>Заказ оформлен</Link>
                     </div>
 

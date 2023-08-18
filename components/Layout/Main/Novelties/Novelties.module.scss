@@ -28,39 +28,6 @@
             color: black;
         }
     }
-    .cards {
-        &_content {
-            padding: 30px 0 50px 0;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            row-gap: 15px;
-            column-gap: 16px;
-        }
-    }
-    .card {
-        width: calc(25% - 12px);
-        position: relative;
-        img {
-            object-fit: cover;
-            object-position: center;
-        }
-        &_title {
-            width: 190px;
-            height: 36px;
-            font-family: Montserrat;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: normal;
-        }
-        &_price {
-            color: #fda3c4;
-            font-family: Montserrat;
-            font-size: 24px;
-            font-weight: 700;
-            line-height: normal;
-        }
         &_button {
             margin-top: 15px;
             width: 100px;
@@ -73,13 +40,7 @@
             justify-content: center;
         }
     }
-    .heart {
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        width: 26px;
-        height: 24px;
-    }
+   
     .products {
         display: flex;
         margin: 0 auto;
@@ -89,4 +50,4 @@
     .basket_icon {
         margin-left: 5px;
     }
-}
+

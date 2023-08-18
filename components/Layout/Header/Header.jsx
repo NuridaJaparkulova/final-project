@@ -52,7 +52,6 @@ const Header = () => {
         }
     }
 
-
     const openModal = () => {
         setModalIsOpen(true)
     }
@@ -113,8 +112,8 @@ const Header = () => {
                 </div>
                 <hr style={{ marginTop: '16px' }} />
             </div>
-            <BasketZero show={show} setShow={setShow} />
-            <FavoritesZero show={favShow} setShow={setFavShow}/>
+            {/* <BasketZero show={show} setShow={setShow} /> */}
+            {/* <FavoritesZero show={favShow} setShow={setFavShow}/> */}
         </header>
     );
     };

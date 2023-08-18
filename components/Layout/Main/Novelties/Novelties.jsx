@@ -6,10 +6,11 @@ import axios from 'axios';
 import MyButton from '../../../../UI/Button/MyButton';
 import { SlBasket } from 'react-icons/sl';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+
 
 const Novelties = () => {
-
-    // const [cardInBasket, setCardInBasket] = useState(false);
+    const route = useRouter()
     const [data, setData] = useState([]);
     useEffect(() => {
         const getNaveItems = async () => {
@@ -20,11 +21,10 @@ const Novelties = () => {
         getNaveItems()
     }, [])
 
-    // if (cardInBasket) {
-    //     s.background = 'red';
-    // } else {
-    //     s.background = 'none';
-    // }
+    const cardsInfo = async () => {
+        route.push('/cardsInfo')
+    }
+  
 
     const postBasket = async (card) => {
         const resp = await axios.post('http://localhost:3001/basket', card)
@@ -47,17 +47,17 @@ const Novelties = () => {
                         <PiWaveSineThin className={s.icon} />
                     </div>
                 </div>
-                <div className={s.cards_content}>
+                <div className='cards_content'>
                     {data.length !== 0 && data.map(card => (
-                        <div className={s.card} key={card.id} >
-                            <img src={card.Image} alt="image" width={350} height={435} />
+                        <div className='card' key={card.id} >
+                            <img src={card.Image} alt="image" width={300} height={435} />
                             <hr style={{ background: 'red', margin: '10px 0 10px 0' }} />
-                            <button onClick={() => postFavorites(card)}><BsSuitHeart className={s.heart} /></button>
+                            <button onClick={() => postFavorites(card)}><BsSuitHeart className='heart' /></button>
                             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around' }}>
-                                <h3 className={s.card_title}>{card?.title}</h3>
-                                <p className={s.card_price}> {card?.price}</p>
+                                <h3 className='card_title'>{card?.title}</h3>
+                                <p className='card_price'> {card?.price}</p>
                             </div>
-                            <MyButton onClick={() => postBasket(card)} className={s.card_button}>В корзину<SlBasket className={s.basket_icon} size={15} />
+                            <MyButton onClick={() => postBasket(card)} className='card_button'>В корзину<SlBasket className={s.basket_icon} size={15} />
                             </MyButton>
                         </div>
                     ))}

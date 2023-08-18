@@ -36,6 +36,8 @@ body {
   align-items: center;
   justify-content: space-around;
   gap: 20px;
+  cursor: pointer;
+
 }
 .card {
   position: relative;
