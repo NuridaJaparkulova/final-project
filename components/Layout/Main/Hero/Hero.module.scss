@@ -1,0 +1,82 @@
+.hero {
+    padding: 15px 0 15px 0;
+    &_content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+        color: #fff;
+        text-align: center;
+        font-family: Sunday Best;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: normal;
+        &_left {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 15px;
+            .tShirts {
+                bottom: 38px;
+                left: 22px;
+                padding: 8px 48px;
+                width: 200px;
+                background: url("../../../../assets/logo/t-shirt-bg.png") no-repeat center/cover;
+            }
+            .btm {
+                transform: rotate(-48.463deg);
+                bottom: 85px;
+                right: 5px;
+                padding: 8px 18px;
+                width: 103px;
+                background: url("../../../../assets/logo/up-bg.png") no-repeat center/cover;
+            }
+            .up {
+                top: 17px;
+                right: 17px;
+                padding: 10px 17px;
+                width: 132px;
+                background: url("../../../../assets/logo/up-bg.png") no-repeat center/cover;
+            }
+        }
+        .img_st {
+            position: relative;
+        }
+        .position {
+            position: absolute;
+        }
+        .img_nd {
+            display: flex;
+            column-gap: 15px;
+        }
+        &_right {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 15px;
+            .dresses {
+                bottom: 66px;
+                left: 15px;
+                padding: 10px 37px;
+                width: 162px;
+                background: url("../../../../assets/logo/dresses-bg.png") no-repeat center/cover;
+            }
+            .costumes {
+                bottom: 35px;
+                right: 12px;
+                padding: 10px 37px;
+                width: 184px;
+                background: url("../../../../assets/logo/dresses-bg.png") no-repeat center/cover;
+            }
+            .hoodies {
+                bottom: 50px;
+                left: 56px;
+                padding: 10px 34px;
+                width: 133px;
+                transform: rotate(34.725deg);
+                background: url("../../../../assets/logo/dresses-bg.png") no-repeat center/cover;
+            }
+        }
+    }
+}

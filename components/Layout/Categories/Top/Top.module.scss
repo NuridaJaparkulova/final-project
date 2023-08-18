@@ -1,0 +1,16 @@
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+     color: #000; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  transition: border-bottom-color 0.3s ease; /* Плавное изменение цвета нижней линии */
+  border-bottom: 1px solid transparent;
+    .categories:hover {
+        border-bottom-color: #ff0000;
+top: 20px;
+        height: 1px;
+        background: #000;
+    }
+}

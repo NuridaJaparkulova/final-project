@@ -1,0 +1,106 @@
+.suits {
+    padding-bottom: 60px;
+    
+    &_title {
+        margin-left: 70px;
+        padding: 20px 0;
+        position: relative;
+        color: #fda3c4;
+        font-family: Sunday Best;
+        font-size: 54px;
+        font-weight: 400;
+        line-height: normal;
+        .title_elements {
+            display: flex;
+            position: absolute;
+            top: 60px;
+            left: 5px;
+        }
+        p {
+            color: black;
+            font-family: Montserrat;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        .icon {
+            color: black;
+        }
+    }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 30px;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: normal;
+        .card {
+            position: relative;
+            width: 360px;
+            height: 530px;
+            Image {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &_price {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 106px;
+            height: 67px;
+        }
+        .left_bg {
+            background: url(../../../../assets/logo/suit-nd-bg.png) no-repeat center/cover;
+        }
+        .right_bg {
+            background: url(../../../../assets/logo/suit-st-st.png) no-repeat center/cover;
+        }
+        .st_top {
+            top: 100px;
+            left: 30px;
+        }
+        .st_btm {
+            bottom: 166px;
+            right: 52px;
+        }
+        .nd_top {
+            top: 32px;
+            right: 32px;
+        }
+        .nd_btm {
+            left: 23px;
+            bottom: 200px;
+        }
+        .rd_top {
+            top: 132px;
+            left: 36px;
+        }
+        .rd_btm {
+            right: 15px;
+            bottom: 160px;
+        }
+        .th_top {
+            top: 149px;
+            left: 41px;
+            color: #fff;
+        }
+        .th_btm {
+            left: 48px;
+            bottom: 68px;
+            color: #fff;
+        }
+    }
+    &_btn {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 27px;
+        padding: 15px 40px;
+        background: url(../../../../assets/logo/dresses-bg.png) no-repeat center/cover;
+    }
+}

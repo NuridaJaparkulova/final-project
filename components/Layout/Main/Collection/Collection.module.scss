@@ -1,0 +1,11 @@
+.collection {
+    padding: 60px 0;
+    &_img {
+        background: url(../../../../assets/Images/collection-bg.png) no-repeat center/cover;
+        &_img {
+            width: 100%;
+            height: 100%;
+
+        }
+    }
+}

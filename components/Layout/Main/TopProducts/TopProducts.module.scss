@@ -1,0 +1,37 @@
+.top_products {
+    padding: 60px 0;
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    &_title {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        background: #fda3c4;
+        p {
+            color: #f40000;
+            font-family: Montserrat;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+    }
+    &_cards {
+        padding: 25px 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 25px;
+    }
+    .cards_btm_title {
+        display: flex;
+        margin: 0 auto;
+        padding: 15px 40px;
+        background: url(../../../../assets/logo/top-btm-bg.png) no-repeat center/cover;
+    }
+}

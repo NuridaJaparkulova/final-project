@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.container {
+  max-width: 1460px;
+  padding: 0 10px;
+  margin: 0 auto;
+  height: 100%;
+}
+body {
+  font-family: "Montserrat", "Pacifico", cursive;
+}
+.ant-input-affix-wrapper-lg {
+  padding: 7px;
+}
+.cards_content {
+  padding: 30px 0 100px 0;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.card {
+  position: relative;
+  max-width: 300px;
+}
+img {
+  object-fit: cover;
+  object-position: center;
+}
+.card_elem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card_title {
+  width: 190px;
+  height: 36px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+}
+.card_price {
+  margin-top: 20px;
+  color: #fda3c4;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+}
+.card_button {
+  margin-top: 25px;
+  width: 100px;
+  height: 35px;
+  background: rgb(224, 57, 152);
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heart {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 26px;
+  height: 24px;
+}
+.delete_btn {
+  margin-top: 15px;
+  width: 100px;
+  height: 35px;
+  background: red;
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+b {
+  color: #000;
+  text-align: center;
+  font-family: Sunday Best;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.basket {
+  height: 100%;
+}
+.basket_elements {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background:  #fda3c4;
+  border: #000 1px solid;
+}
+.contacts,
+.order,
+.delivery, 
+.payment {
+  height: 100%;
+}

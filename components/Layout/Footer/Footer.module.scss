@@ -1,0 +1,38 @@
+.footer {
+
+    width: 100%;
+    background: #fda3c4;
+    padding: 60px 0;
+    &_content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px;
+    }
+    .logo {
+        color: #f40000;
+    }
+    p {
+       
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 14px;
+    }
+    &_icon {
+        color: white;
+        margin-top: 20px;
+        margin-right: 16px;
+        width: 20px;
+        height: 20px;
+    }
+    .admin_content {
+        display: flex;
+        column-gap: 30px;
+    }
+    .admin_img {
+        border-radius: 50%;
+    }
+}
