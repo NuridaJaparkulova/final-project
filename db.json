@@ -1,27 +1,5 @@
 {
-  "users": [
-    {
-      "name": "hhtr",
-      "sName": "rtrtrt",
-      "email": "trt@rrs.rse",
-      "password": "121212111222",
-      "id": 1
-    },
-    {
-      "name": "Saba",
-      "sName": "Saba",
-      "email": "saba.@gmail.com",
-      "password": "123456",
-      "id": 2
-    },
-    {
-      "name": "HHH",
-      "sName": "HHH",
-      "email": "email@email.com",
-      "password": "Parol123",
-      "id": 3
-    }
-  ],
+  "users": [],
   "categories": [
     {
       "news": [
@@ -88,84 +66,84 @@
           "price": " 3499 с",
           "Image": "https://ae04.alicdn.com/kf/S223d7265a91c44a1898747737671bb45O.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "1"
+          "id": "5"
         },
         {
           "title": "Худи женское черное 'slit'.",
           "price": "3900 с",
           "Image": "https://images.shafastatic.net/296242473",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "2"
+          "id": "6"
         },
         {
           "title": "Молодёжный голубой худи с капюшоном",
           "price": " 5500 с",
           "Image": "https://mbocharova.com.ua/upload/resize_cache/iblock/e40/518_788_1/e40dd7217a8210a780e0aed0beb3e42b.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "3"
+          "id": "7"
         },
         {
           "title": "Худи бежевое из меха Teddy",
           "price": " 6100 с",
           "Image": "https://images.prom.ua/4030767057_w640_h640_4030767057.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "4"
+          "id": "8"
         },
         {
           "title": "Белая футболка с круглым вырезом",
           "price": " 1399 с",
           "Image": "https://ae04.alicdn.com/kf/S223d7265a91c44a1898747737671bb45O.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "1"
+          "id": "9"
         },
         {
           "title": "Чёрная футюолка с короткими рукавами",
           "price": "1900 с",
           "Image": "https://ae04.alicdn.com/kf/H0813577aa51c4b3ca38a95ed20f2d6dat.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "2"
+          "id": "10"
         },
         {
           "title": "Оверсайз с логотипом",
           "price": " 1500 с",
           "Image": "https://mojem.com/netcat_files/multifile/531/6_1.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "3"
+          "id": "11"
         },
         {
           "title": "Свободные короткие рукава",
           "price": " 2100 с",
           "Image": "https://img.joomcdn.net/15c2535bfebc91a02219b2e5d8b0b0292f96455b_original.jpeg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "4"
+          "id": "12"
         },
         {
           "title": "Брендовая рубашка",
           "price": " 3499 с",
           "Image": "https://cdnya.proimagescdn.ru/images/bimages/1359/2000000075525_1.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "1"
+          "id": "13"
         },
         {
           "title": "Классическая белая",
           "price": "3900 с",
           "Image": "https://ostriv.ua/media/catalog/product/cache/1/small_image/400x600/3ea0e1c852d607ab6dbcfb29295e0451/2/1/2189005_1.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "2"
+          "id": "14"
         },
         {
           "title": "Рубашка с карманами",
           "price": " 5500 с",
           "Image": "https://cdn.finnflare.com/upload/resize_cache/full_size/FAB/200/800_1200_2/FAB11026_200_20.jpg?cdn=1649161766",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "3"
+          "id": "15"
         },
         {
           "title": "Джинсовая рубашка",
           "price": " 6100 с",
           "Image": "https://pompidou.ua/image/cache/catalog/!-5/1254/UA3087%20D4051%2078405-1-800x900.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "4"
+          "id": "16"
         }
       ],
       "dresses": [
@@ -202,56 +180,56 @@
           "price": "2 299 с",
           "Image": "https://files.salon-love-forever.ru/uploads/item/1000-1500/1fc8072d1a224ac59f6f2225afe586ba.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "1"
+          "id": "5"
         },
         {
           "title": "Платье прозрачное в цветочек белое",
           "price": "2 299 с",
           "Image": "https://files.salon-love-forever.ru/uploads/item/1000-1500/1fc8072d1a224ac59f6f2225afe586ba.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "2"
+          "id": "6"
         },
         {
           "title": "Красное платье",
           "price": "3 299 с",
           "Image": "https://gols.com.ua/upload/iblock/2d7/2d7264a2889ec189be00899ec1b876ef.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "3"
+          "id": "7"
         },
         {
           "title": "Чёрное плате с разрезом",
           "price": "1 299 с",
           "Image": "https://www.interstyle-spb.ru/assets/images/products/3482/vechernee-plate-krista-329-03-black-alt2.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "4"
+          "id": "8"
         },
         {
           "title": "Платье прозрачное в цветочек белое",
           "price": "2 299 с",
           "Image": "https://files.salon-love-forever.ru/uploads/item/1000-1500/1fc8072d1a224ac59f6f2225afe586ba.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "1"
+          "id": "9"
         },
         {
           "title": "Платье прозрачное в цветочек белое",
           "price": "2 299 с",
           "Image": "https://files.salon-love-forever.ru/uploads/item/1000-1500/1fc8072d1a224ac59f6f2225afe586ba.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "2"
+          "id": "10"
         },
         {
           "title": "Красное платье",
           "price": "3 299 с",
           "Image": "https://gols.com.ua/upload/iblock/2d7/2d7264a2889ec189be00899ec1b876ef.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "3"
+          "id": "11"
         },
         {
           "title": "Чёрное плате с разрезом",
           "price": "1 299 с",
           "Image": "https://www.interstyle-spb.ru/assets/images/products/3482/vechernee-plate-krista-329-03-black-alt2.jpg",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-          "id": "4"
+          "id": "12"
         }
       ],
       "bottom": [
@@ -404,23 +382,53 @@
   ],
   "basket": [
     {
-      "title": "Красное платье",
-      "price": "3 299 с",
-      "Image": "https://gols.com.ua/upload/iblock/2d7/2d7264a2889ec189be00899ec1b876ef.jpg",
-      "id": "3"
+      "title": "Платье прозрачное в цветочек белое",
+      "price": "2 299 с",
+      "Image": "https://files.salon-love-forever.ru/uploads/item/1000-1500/1fc8072d1a224ac59f6f2225afe586ba.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
+      "id": "1"
     },
     {
       "title": "Платье прозрачное в цветочек белое",
       "price": "2 299 с",
       "Image": "https://files.salon-love-forever.ru/uploads/item/1000-1500/1fc8072d1a224ac59f6f2225afe586ba.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
       "id": "2"
     },
     {
-      "title": "Cвитшот вставка клетка",
-      "price": "1 099 с",
-      "Image": "https://ae01.alicdn.com/kf/H823d7ddb2d7a44349bd065d36785338e7.jpg",
+      "title": "Красное платье",
+      "price": "3 299 с",
+      "Image": "https://gols.com.ua/upload/iblock/2d7/2d7264a2889ec189be00899ec1b876ef.jpg",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
-      "id": "1"
+      "id": "3"
+    },
+    {
+      "title": "Чёрное плате с разрезом",
+      "price": "1 299 с",
+      "Image": "https://www.interstyle-spb.ru/assets/images/products/3482/vechernee-plate-krista-329-03-black-alt2.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
+      "id": "4"
+    },
+    {
+      "title": "Чёрное плате с разрезом",
+      "price": "1 299 с",
+      "Image": "https://www.interstyle-spb.ru/assets/images/products/3482/vechernee-plate-krista-329-03-black-alt2.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
+      "id": "8"
+    },
+    {
+      "title": "Платье прозрачное в цветочек белое",
+      "price": "2 299 с",
+      "Image": "https://files.salon-love-forever.ru/uploads/item/1000-1500/1fc8072d1a224ac59f6f2225afe586ba.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
+      "id": "6"
+    },
+    {
+      "title": "Платье прозрачное в цветочек белое",
+      "price": "2 299 с",
+      "Image": "https://files.salon-love-forever.ru/uploads/item/1000-1500/1fc8072d1a224ac59f6f2225afe586ba.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
+      "id": "5"
     }
   ],
   "favorites": [
@@ -428,6 +436,7 @@
       "title": "Платье прозрачное в цветочек белое",
       "price": "2 299 с",
       "Image": "https://files.salon-love-forever.ru/uploads/item/1000-1500/1fc8072d1a224ac59f6f2225afe586ba.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
       "id": "1"
     },
     {
@@ -436,6 +445,20 @@
       "Image": "https://files.salon-love-forever.ru/uploads/item/1000-1500/1fc8072d1a224ac59f6f2225afe586ba.jpg",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
       "id": "2"
+    },
+    {
+      "title": "Чёрное плате с разрезом",
+      "price": "1 299 с",
+      "Image": "https://www.interstyle-spb.ru/assets/images/products/3482/vechernee-plate-krista-329-03-black-alt2.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
+      "id": "8"
+    },
+    {
+      "title": "Красное платье",
+      "price": "3 299 с",
+      "Image": "https://gols.com.ua/upload/iblock/2d7/2d7264a2889ec189be00899ec1b876ef.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
+      "id": "3"
     }
   ]
 }

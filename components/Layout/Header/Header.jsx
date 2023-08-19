@@ -92,7 +92,7 @@ const Header = () => {
                             <button onClick={() => openBasket}>
                             <BiShoppingBag size={24} />
                             </button>
-                            <span>{basketCount}</span>
+                            <span style={{background: 'none', color: '#000'}}>{basketCount}</span>
                         </Link>
                     </div>
                     <Link href='/login' className={s.auth}>

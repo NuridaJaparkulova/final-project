@@ -4,7 +4,7 @@ import footerLogo from '../../../assets/logo/header-logo.png';
 import { BsInstagram } from 'react-icons/bs';
 import { PiTelegramLogo } from 'react-icons/pi';
 import adminImg from '../../../assets/Images/footer-img.jpg';
-import  Link  from 'next/link';
+import Link from 'next/link';
 
 const Footer = () => {
     return (
@@ -27,11 +27,11 @@ const Footer = () => {
                     </div>
                     <div className={s.sNetwork}>
                         <h2>Соц. сети</h2>
-                        <Link href='/' >
-                        <BsInstagram className={s.footer_icon} />
+                        <Link href="https://www.instagram.com/" >
+                            <BsInstagram className={s.footer_icon} />
                         </Link>
-                        <Link href='/' > 
-                        <PiTelegramLogo className={s.footer_icon} />
+                        <Link href="https://t.me/your_username" >
+                            <PiTelegramLogo className={s.footer_icon} />
                         </Link>
 
                     </div>

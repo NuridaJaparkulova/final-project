@@ -33,23 +33,23 @@ const Delivery = () => {
                     <div className={s.delivery_left}>
                         <div className={cl(s.delivery_data, s.d_flex)}>
                             <div>
-                                <h2>Контактные <br/> данные</h2>
+                                <h2>Контактные <br /> данные</h2>
                             </div>
-                            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'start', justifyContent: 'center'}} >
+                            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'start', justifyContent: 'center' }} >
                                 <MyInput
-                                className={s.delivery_input}
+                                    className={s.delivery_input}
                                     style={{ paddingLeft: '30px' }}
                                     type='text'
                                     placeholder='Имя'
                                 />
                                 <MyInput
-                                className={s.delivery_input}
+                                    className={s.delivery_input}
                                     style={{ paddingLeft: '30px' }}
                                     type='text'
                                     placeholder='Фамилия'
                                 />
                                 <MyInput
-                                className={s.delivery_input}
+                                    className={s.delivery_input}
                                     style={{ paddingLeft: '30px' }}
                                     id="phoneNumber"
                                     name="phoneNumber"
@@ -58,7 +58,7 @@ const Delivery = () => {
                                     placeholder='Номер телефона'
                                 />
                                 <MyInput
-                                className={s.delivery_input}
+                                    className={s.delivery_input}
                                     style={{ paddingLeft: '30px' }}
                                     type='email'
                                     placeholder='E-mail'
@@ -66,7 +66,7 @@ const Delivery = () => {
                             </div>
                         </div>
                         <div className={cl(s.delivery_method, s.d_flex)}>
-                            <h2>Способ <br/> доставки</h2>
+                            <h2>Способ <br /> доставки</h2>
                             <div >
                                 <label for="delivery">
                                     <MyInput type="radio" id="delivery" />
@@ -80,14 +80,14 @@ const Delivery = () => {
                                     <MyInput type="radio" id="delivery" />
                                     Самовывоз с нашего шоурума — <br /> бесплатно
                                 </label>
-                                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '20px'}} >
-                                <p >г.Бишкек,  ул. Киевская , 37 Ежедневно с 11:00 до 21:00</p>
+                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '20px' }} >
+                                    <p >г.Бишкек,  ул. Киевская , 37 Ежедневно с 11:00 до 21:00</p>
                                 </div>
                                 <MyInput className={s.delivery_comment} placeholder='Комментарий к заказу' />
                             </div>
                         </div>
                         <div className={cl(s.delivery_order, s.d_flex)}>
-                            <h2>Способ <br/> оплаты </h2>
+                            <h2>Способ <br /> оплаты </h2>
                             <div>
                                 <label for="delivery">
                                     <MyInput type="radio" id="delivery" />
@@ -106,7 +106,7 @@ const Delivery = () => {
                             </div>
                         </div>
                         <MyButton className={s.delivery_button}>
-                            <Link href='/novelties'><b>Смотреть все</b></Link>
+                            <Link href='/novelties'><b>Подтвердить заказ</b></Link>
                         </MyButton>
                     </div>
                     <div className={s.delivery_right}>
@@ -129,8 +129,8 @@ const Delivery = () => {
                                 </div>
                             ))}
                         </div>
-                            <h4>Cумма заказа: </h4>
-                            <h4>Стоимость доставки:  <b>бесплатно</b></h4>
+                        <h4>Cумма заказа: </h4>
+                        <h4>Стоимость доставки:  <b>бесплатно</b></h4>
                     </div>
                 </div>
             </div>

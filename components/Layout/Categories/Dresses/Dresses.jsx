@@ -5,10 +5,11 @@ import axios from 'axios';
 import MyButton from '../../../../UI/Button/MyButton';
 import { SlBasket } from 'react-icons/sl';
 import { BsSuitHeart } from 'react-icons/bs';
+import { useGetAllClothesQuery } from '../../../../services/getCategories';
 
 const Dresses = () => {
-    const [data, setData] = useState([])
-    const { pathname } = useRouter()
+    const {data: newData} = useGetAllClothesQuery();
+    console.log(newData);   
 
     const postBasket = async (card) => {
         const resp = await axios.post('http://localhost:3001/basket', card)
@@ -21,20 +22,11 @@ const Dresses = () => {
         console.log(data)
     }
 
-
-    useEffect(() => {
-        const getNaveItems = async () => {
-            const resp = await axios.get(`http://localhost:3001/categories`)
-            const respData = await resp.data
-            setData(respData[0].dresses)
-        }
-        getNaveItems()
-    }, [])
     return (
         <>
             <div className="container">
                 <div className='cards_content'>
-                    {data.length !== 0 && data.map(card => (
+                {newData && newData[0].dresses.map(card => (
                         <div className='card' key={card.id} >
                             <img src={card.Image} alt="image" width={300} height={350} />
                             <button onClick={() => postFavorites(card)}><BsSuitHeart className='heart' /></button>

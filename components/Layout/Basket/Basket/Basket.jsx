@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import s from './Basket.module.scss';
 import { BsTrash3 } from 'react-icons/bs';
 import axios from 'axios';
+import { useGetAllClothesQuery } from '../../../../services/getCategories';
 
 
 const Basket = () => {
@@ -23,14 +24,8 @@ const Basket = () => {
         }
     }, [])
 
-    useEffect(() => {
-        const getProductsBasket = async () => {
-            const resp = await fetch('http://localhost:3001/basket')
-            const respData = await resp.json()
-            setProductsBasket(respData)
-        }
-        getProductsBasket()
-    }, [])
+    const {data: newData} = useGetAllClothesQuery();
+    console.log(newData)   
 
    
     return (
@@ -45,7 +40,7 @@ const Basket = () => {
                     </div>
 
                     <div className='cards_content'>
-                    {productsBasket.length !== 0 && productsBasket.map(card => (
+                    {newData && newData[0].dresses.map(card => (
                         <div className='card' key={card.id} >
                             <img src={card.Image} alt="image" width={300} height={350} />
                             <hr style={{ background: 'red', margin: '10px 0 10px 0' }} />

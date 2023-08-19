@@ -17,14 +17,14 @@ const Favorites = () => {
     return (
         <div className={s.favorites}>
             <div className="container">
-                <div className={s.cards_content}>
+                <div className='cards_content'>
                     {productsFavorites.length !== 0 && productsFavorites.map(card => (
-                        <div className={s.card} key={card.id} >
+                        <div className='card' key={card.id} >
                             <img src={card.Image} alt="image" width={300} height={350} />
                             <hr style={{ background: 'red', margin: '10px 0 10px 0' }} />
                             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around' }}>
-                                <h3 className={s.card_title}>{card?.title}</h3>
-                                <p className={s.card_price}> {card?.price}</p>
+                                <h3 className='card_title'>{card?.title}</h3>
+                                <p className='card_price'> {card?.price}</p>
                             </div>
                         </div>
                     ))}
